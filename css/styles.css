@@ -1,0 +1,123 @@
+*{
+    font-family: 'Karla', sans-serif;
+    color:#FFFFFF;
+}
+
+body{
+    display:flex; 
+    justify-content:center;
+    align-items: center;
+    height: 100vh;
+    background-color: blue;
+    box-sizing: border-box;
+    background-color: #E6EFF6;
+    box-sizing: border-box; 
+}
+.container{
+    border-radius:9px;
+    box-shadow: 0px 0px 20px 4px #00000014;
+    max-width: 635px;
+    width:100%;
+}
+main{
+    margin:50px;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+}
+.row1{
+    display: flex;
+    background-color: #FFFFFF;
+    border-radius: 9px 9px 0 0;
+}
+.row2{
+    display: flex;
+    flex-direction: row;
+    width:100%;
+}
+.row1{
+    padding: 19px 39px 23px 39px;
+}
+
+.row1>.data>h2{
+    color:hsl(179, 62%, 43%);
+}
+
+.row1>.data>.midtxt{
+    padding-top:6px;
+    color:hsl(71, 73%, 54%);
+    font-weight: 700;
+    font-size:1.125rem;
+    /* text-emphasis-style:; */
+}
+.row1>.data>.lasttxt{
+    color:hsl(218, 22%, 67%);
+    font-weight: 400;
+    font-size:1rem;
+    line-height: 1.5;
+}
+.row21{ 
+    padding:39px 40px 39px 39px;
+    background-color: #2BB3B1;
+    border-radius: 0 0 0 9px;
+}
+.row21>.data , .btn, .firsttxt{
+    font-weight:700px;
+}
+
+.permnth{
+    font-weight: 100;
+    color: #79E5E7;
+}
+
+.dollar{
+    display: flex;
+    align-items: center;
+    margin-top:19px;
+}
+.dollar h1{
+    margin-bottom:0px;
+    margin-top:0px;
+}
+
+.btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(71, 73%, 54%);
+    margin: 28px 0 0 0;
+    border-radius: 6px;
+    box-shadow:0px 8px 9px 3px #26A39F;
+}
+
+
+.row22{
+    padding:39px 85px 17px 39px;
+    background-color: #4ABEBD;
+    border-radius: 0 0 9px 0 ;
+}
+li{
+ font-size:0.9375rem;
+ line-height: 22px;
+}
+ul{
+    list-style: none;
+   padding-left:0; 
+}
+
+@media only screen and (max-width:700px){  
+   .row2{
+    display:flex;
+    flex-direction: column;
+   }
+   .row21{
+    border-radius: 0;
+   }
+   .row22{
+    border-radius: 0 0 9px 9px;
+   }
+}
