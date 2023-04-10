@@ -7,7 +7,7 @@ body{
     display:flex; 
     justify-content:center;
     align-items: center;
-    height: 100vh;
+    min-height: 100vh;
     background-color: blue;
     box-sizing: border-box;
     background-color: #E6EFF6;
